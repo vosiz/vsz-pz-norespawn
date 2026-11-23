@@ -1,0 +1,5 @@
+name=[VSZ] No Indoor Respawn
+id=NoIndoorRespawn
+description=Stops zombies from re-appearing inside rooms you have already explored when zombie respawn is off. Server-side, works in singleplayer and multiplayer.
+poster=preview.png
+versionMin=42.0

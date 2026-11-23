@@ -1,4 +1,5 @@
-name=No Indoor Respawn (local)
+name=[VSZ] No Indoor Respawn
 id=NoIndoorRespawn
-description=When zombie respawn is OFF in sandbox settings, zombies can no longer appear out of thin air inside rooms that a player has already seen (B42 bug: rooms get re-populated on chunk load). Zombies that walk in through doors or windows are not affected. Pure Lua, server-side.
+description=Stops zombies from re-appearing inside rooms you have already explored when zombie respawn is off. Server-side, works in singleplayer and multiplayer.
+poster=preview.png
 versionMin=42.0

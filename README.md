@@ -14,6 +14,8 @@ See [Roadmap](#roadmap).
 - [x] Remove zombies re-spawned on chunk load in explored rooms
 - [x] Fill in missing "already populated" marks for explored rooms
 - [x] Only active while zombie respawn is off
-- [ ] Steam Workshop release
+- [x] Steam Workshop release
 ## Setup
-Until the Workshop release, install it manually: copy `Contents/mods/NoIndoorRespawn` into your `Zomboid/mods` folder and add `NoIndoorRespawn` to the server's mod list. The server log shows a `[NoIndoorRespawn]` line for every zombie the mod removes.
+Subscribe on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3844557178) and enable `[VSZ] No Indoor Respawn` in the mod list. On a dedicated server add `3844557178` to `WorkshopItems=` and `NoIndoorRespawn` to `Mods=`.
+Manual install: copy `Contents/mods/NoIndoorRespawn` into your `Zomboid/mods` folder instead. Don't use both at once.
+The server log shows a `[NoIndoorRespawn]` line for every zombie the mod removes.
